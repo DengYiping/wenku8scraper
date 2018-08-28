@@ -1,0 +1,7 @@
+* Introduction
+This is a simple scraper to download light novels from wenku8.
+It will generate several epub files based on books.
+* Usage
+#+BEGIN_SRC bash
+python make.py http://INDEXPAGE_OF_THE_LIGHT_NOVEL
+#+END_SRC
