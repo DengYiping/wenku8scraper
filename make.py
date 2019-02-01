@@ -5,10 +5,12 @@ from ebooklib import epub
 import mkepub
 
 def main():
+    # checking the arguments to make sure
     if len(sys.argv) != 2:
         print('wrong number of argument, should only contain the index url')
         exit(-1)
 
+    # first argument - the index page
     index = IndexParser(sys.argv[1])
     index.parse()
     for chapter in index.chapters:
