@@ -5,3 +5,4 @@ It will generate several epub files based on books.
 #+BEGIN_SRC bash
 python make.py http://INDEXPAGE_OF_THE_LIGHT_NOVEL
 #+END_SRC
+This software hasn't been fully tested, if there is a bug, please file it.
